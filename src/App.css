@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+header ul li {
+  @apply px-2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-primary {
+  background-image: url('./assets/bg-secondary.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-secondary {
+  background-image: url('./assets/bg.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mobile-nav {
+  @apply fixed top-10 left-0 bg-gray-900 w-full h-1/5;
 }
 
-.App-link {
-  color: #61dafb;
+.mobile-nav li {
+  @apply w-full h-full text-center border-b-2 border-gray-700 text-white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+  @apply bg-black text-white;
 }
+
+.footer {
+  @apply bg-black text-white;
+}
+
+.text-primary {
+  @apply text-gray-200;
+}
+
+.text-secondary {
+  @apply text-gray-400; 
+}
+
+.border-primary {
+  @apply border-gray-700; 
+}
+
+.btn {
+  @apply bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700;
+}
+
+a {
+  @apply text-gray-300 hover:text-gray-100;
+}
+
+.hover\:text-white:hover {
+  @apply text-white;
+}
+
+.project-desc {
+  @apply absolute left-0 right-0 bottom-0 top-0 bg-secondary opacity-0 duration-500 hover:opacity-100;
+}
+
+.btn {
+  @apply bg-primary px-5 py-2 font-bold hover:border-2 border-white rounded;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
