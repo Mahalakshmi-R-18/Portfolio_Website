@@ -14,7 +14,7 @@ export default function Projects() {
             {
                 image: websiteImg3,
                 description: 'Created a dynamic webpage (Using HTML, CSS, JavaScript)',
-                link: 'https://github.com/Mahalakshmi-R-18/Dynamic_Webpage'
+                link: 'https://dynamic-webpage-ashen.vercel.app/'
             },
             {
                 image: websiteImg4,
