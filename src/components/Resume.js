@@ -2,7 +2,7 @@ import ResumeImg from '../assets/resume.jpg';
 
 export default function Resume() {
     const config = {
-        link: 'https://acrobat.adobe.com/id/urn:aaid:sc:ap:39b0cf97-58d3-4288-b617-42d17f2e74a5'
+        link: 'https://acrobat.adobe.com/id/urn:aaid:sc:AP:e129da14-511d-4f48-a362-2d07bd731d87'
     }
 
     return (

@@ -3,8 +3,8 @@ import AboutImg from '../assets/about.png';
 export default function Skills() {
     const config = {
         technicalSkills: {
-            programmingLanguages: 'Python, PHP, Java',
-            database: 'MySQL, SQL Server, Oracle',
+            programmingLanguages: 'Java, Python',
+            database: 'MySQL, SQL Server',
             software: 'WordPress, Tally',
             webTechnology: 'HTML, CSS',
             mobileAppDevelopment: 'Kotlin',
