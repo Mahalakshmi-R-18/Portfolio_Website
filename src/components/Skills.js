@@ -4,11 +4,11 @@ export default function Skills() {
     const config = {
         technicalSkills: {
             programmingLanguages: 'Java, Python',
-            database: 'MySQL, SQL Server',
-            software: 'WordPress, Tally',
-            webTechnology: 'HTML, CSS',
+            database: ' MySQL, MS SQL, Oracle, Firebase',
+            software: 'WordPress, Tally, Figma',
+            frontend: 'HTML, CSS, Bootstrap',
             mobileAppDevelopment: 'Kotlin',
-            documentation: 'MS Office'
+            concepts: ' Database Management, OOPS, Data Structures'
         },
         personalitySkills: [
             'Quick learner',
@@ -36,20 +36,20 @@ export default function Skills() {
                             <p className='text-lg'>{config.technicalSkills.database}</p>
                         </div>
                         <div className='bg-gray-900 bg-opacity-80 p-4 rounded-lg'>
-                            <p className='text-lg'>Software :</p>
-                            <p className='text-lg'>{config.technicalSkills.software}</p>
-                        </div>
-                        <div className='bg-gray-900 bg-opacity-80 p-4 rounded-lg'>
-                            <p className='text-lg'>Web Technology :</p>
-                            <p className='text-lg'>{config.technicalSkills.webTechnology}</p>
+                            <p className='text-lg'>Frontend :</p>
+                            <p className='text-lg'>{config.technicalSkills.frontend}</p>
                         </div>
                         <div className='bg-gray-900 bg-opacity-80 p-4 rounded-lg'>
                             <p className='text-lg'>Mobile App Development :</p>
                             <p className='text-lg'>{config.technicalSkills.mobileAppDevelopment}</p>
                         </div>
                         <div className='bg-gray-900 bg-opacity-80 p-4 rounded-lg'>
-                            <p className='text-lg'>Documentation :</p>
-                            <p className='text-lg'>{config.technicalSkills.documentation}</p>
+                            <p className='text-lg'>Concepts :</p>
+                            <p className='text-lg'>{config.technicalSkills.concepts}</p>
+                        </div>
+                        <div className='bg-gray-900 bg-opacity-80 p-4 rounded-lg'>
+                            <p className='text-lg'>Software :</p>
+                            <p className='text-lg'>{config.technicalSkills.software}</p>
                         </div>
                     </div>
                 </div>
