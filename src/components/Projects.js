@@ -2,6 +2,7 @@ import websiteImg2 from '../assets/car_rental.jpg';
 import websiteImg3 from '../assets/dynamic_website.jpg';
 import websiteImg4 from '../assets/treasure_hunt.jpg';
 import websiteImg5 from '../assets/library.jpg';
+import websiteImg6 from '../assets/hiretrove.jpg';
 
 export default function Projects() {
     const config = {
@@ -25,17 +26,22 @@ export default function Projects() {
                 image: websiteImg5,
                 description: 'Developed a mobile app for Department Library Management (Using Kotlin with Firebase)',
                 link: 'https://github.com/Mahalakshmi-R-18/Department_Library_App'
+            },
+            {
+                image: websiteImg6,
+                description: 'Developed a skill-sharing and hiring platform (Using Firebase, Express, React, and Node.js)',
+                link: 'https://github.com/Mahalakshmi-R-18/HireTove'
             }
         ]
     };
 
     return (
-        <section id='projects' className="flex flex-col py-20 px-5 justify-center bg-primary text-white font-hero-font">
+        <section id='projects' className="flex flex-col py-20 pb-80 px-1 justify-center bg-primary text-white font-hero-font">
             <div className="w-full text-center mb-10">
                 <h1 className="text-4xl border-b-4 border-white inline-block mb-5 font-bold">PROJECTS</h1>
                 <p className="text-lg">These are my project works. Check them out.</p>
             </div>
-            <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-10">
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5 px-14">
                 {config.projects.map((project) => (
                     <div key={project.description} className="relative bg-gray-300 text-black rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-500">
                         <img className="h-48 w-full object-cover" src={project.image} alt="Project" />
