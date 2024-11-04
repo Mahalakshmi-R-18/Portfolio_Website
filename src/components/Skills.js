@@ -3,7 +3,7 @@ import AboutImg from '../assets/about.png';
 export default function Skills() {
     const config = {
         technicalSkills: {
-            programmingLanguages: 'Java, C',
+            programmingLanguages: 'Java, C(Basic), Python(Basic)',
             database: ' MySQL, MS SQL, Firebase',
             software: 'WordPress, Tally, Figma',
             frontend: 'HTML, CSS, Bootstrap, Tailwind CSS, React',

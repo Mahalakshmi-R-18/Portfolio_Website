@@ -30,7 +30,7 @@ export default function Projects() {
             {
                 image: websiteImg6,
                 description: 'Developed a skill-sharing and hiring platform (Using Firebase, Express, React, and Node.js)',
-                link: 'https://github.com/Mahalakshmi-R-18/HireTove'
+                link: 'https://github.com/Mahalakshmi-R-18/HireTrove'
             }
         ]
     };
